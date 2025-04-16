@@ -1,6 +1,7 @@
 {
   "name": "next-boilerplate",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
