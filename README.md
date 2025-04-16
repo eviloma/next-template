@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Create a Next.js App
+
+```bash
+bunx create next-app -e https://github.com/eviloma/next-template
+```
+
 ## Getting Started
 
 First, run the development server:
