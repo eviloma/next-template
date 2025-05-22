@@ -6,7 +6,9 @@
     "dev": "bun --bun next dev --turbopack",
     "build": "bun --bun next build",
     "start": "bun --bun next start",
-    "lint": "biome check --write --vcs-enabled=true .",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "ts-check": "tsc",
     "prepare": "husky"
   },
   "dependencies": {
@@ -26,9 +28,8 @@
     "@types/react-dom": "^19.1.2",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.1",
+    "lint-staged": "^16.0.0",
     "tailwindcss": "^4.1.4",
-    "tsc-files": "^1.1.4",
     "typescript": "^5.8.3"
   },
   "trustedDependencies": ["@biomejs/biome"],
@@ -36,5 +37,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "engines": {
+    "node": "22"
   }
 }

@@ -1,6 +1,9 @@
 export default {
   // Run tsc on staged files that have the following extensions: ts, tsx
-  "*.{ts,tsx}": () => "tsc-files --noEmit",
+  "*.{ts,tsx}": {
+    title: "Types scheck",
+    task: async () => "tsc",
+  },
   // Run Biome on staged files that have the following extensions: js, ts, jsx, tsx, json and jsonc
   "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
     "biome check --files-ignore-unknown=true", // Check formatting and lint
