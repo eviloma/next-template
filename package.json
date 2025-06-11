@@ -12,27 +12,27 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@t3-oss/env-nextjs": "^0.13.0",
+    "@t3-oss/env-nextjs": "^0.13.8",
     "jiti": "^2.4.2",
-    "next": "^15.3.0",
+    "next": "^15.3.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "zod": "^3.24.2"
+    "zod": "^3.25.58"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@tailwindcss/postcss": "^4.1.4",
-    "@types/bun": "^1.2.9",
-    "@types/node": "^22.14.1",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/bun": "^1.2.15",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.0.0",
-    "tailwindcss": "^4.1.4",
+    "lint-staged": "^16.1.0",
+    "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3"
   },
-  "trustedDependencies": ["@biomejs/biome"],
+  "trustedDependencies": ["@biomejs/biome", "@tailwindcss/oxide", "sharp"],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
