@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Check changed files
-# bun lint-staged
-
 echo "Checking types..."
 bun tsc
 
